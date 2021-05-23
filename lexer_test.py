@@ -54,7 +54,7 @@ class TestLexer(unittest.TestCase):
 			Token(TokenType.MILTIPLY),
 			Token(TokenType.RPARENT),
 
-			Token(TokenType.NUMBER, 51),
+			Token(TokenType.NUMBER, 51)
 		])
 
 
