@@ -2,10 +2,10 @@ from dataclasses import dataclass
 
 @dataclass
 class NumberNode:
-	value: float
+	value: any
 
 	def __repr__(self):
-		return f"({self.value}"
+		return f"{self.value}"
 
 @dataclass
 class AddNode:
@@ -16,7 +16,7 @@ class AddNode:
 		return f"({self.node_a}+{self.node_b})"
 
 @dataclass
-class SubtactNode:
+class SubtractNode:
 	node_a: any
 	node_b: any
 
@@ -31,7 +31,6 @@ class MultiplyNode:
 	def __repr__(self):
 		return f"({self.node_a}*{self.node_b})"
 
-
 @dataclass
 class DivideNode:
 	node_a: any
@@ -40,19 +39,16 @@ class DivideNode:
 	def __repr__(self):
 		return f"({self.node_a}/{self.node_b})"
 
-
 @dataclass
 class PlusNode:
 	node: any
 
 	def __repr__(self):
 		return f"(+{self.node})"
-
-
+	
 @dataclass
 class MinusNode:
 	node: any
 
 	def __repr__(self):
 		return f"(-{self.node})"
-
