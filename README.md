@@ -15,6 +15,7 @@ calc > 5+5
 ```bash
 python -m unittest lexer_test
 python -m unittest parser_test
+python -m unittest interpreter_test 
 ```
 
 ### References
