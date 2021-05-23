@@ -1,6 +1,6 @@
 from tokens import Token, TokenType
 
-WHITESPACE = ' \n\r\t' # ignore characters
+WHITESPACE = ' \n\t'
 DIGITS = '0123456789'
 
 class Lexer:

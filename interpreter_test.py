@@ -1,5 +1,4 @@
 import unittest
-
 from nodes import *
 from interpreter import Interpreter
 from values import Number
