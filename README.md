@@ -6,8 +6,23 @@ Simple Math Interpreter in Python
 
 ```bash
 python main.py
-calc > 5+5
-...
+```
+
+## Example
+
+```bash
+calc > 5
+5.0
+calc > -110
+-110.0
+calc > --110
+110.0
+calc > ---110
+-110.0
+calc > 5*4+5
+25.0
+calc > 5/2+4*4+(5/4-2)+1/1
+18.75
 ```
 
 ## Unit Testing
